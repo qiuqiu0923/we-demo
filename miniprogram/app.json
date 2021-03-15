@@ -1,8 +1,10 @@
 {
   "pages": [
+    "pages/home/home",
+    "pages/index/index",
+    "pages/layout/layout",
     "pages/chatserver/chatserver",
     "pages/im/im",
-    "pages/index/index",
     "pages/userConsole/userConsole",
     "pages/storageConsole/storageConsole",
     "pages/databaseGuide/databaseGuide",
@@ -13,15 +15,46 @@
     "pages/openapi/serverapi/serverapi",
     "pages/openapi/callback/callback",
     "pages/openapi/cloudid/cloudid",
-    "pages/im/room/room"
+    "pages/im/room/room",
+    "pages/wode/wode",
+    "pages/circle/circle"
   ],
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#f00",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "images/icon/shouye1.png",
+        "selectedIconPath": "images/icon/shouye.png"
+      },
+      {
+        "pagePath": "pages/circle/circle",
+        "text": "圈子",
+        "iconPath": "images/icon/circle1.png",
+        "selectedIconPath": "images/icon/circle.png"
+      },
+      {
+        "pagePath": "pages/wode/wode",
+        "text": "我的",
+        "iconPath": "images/icon/wode1.png",
+        "selectedIconPath": "images/icon/wode.png"
+      }
+    ]
+  },
   "window": {
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "hello",
+    "navigationBarTitleText": "HELLO",
     "navigationBarTextStyle": "black"
   },
   "sitemapLocation": "sitemap.json",
-  "style": "v2"
+  "style": "v2",
+  "usingComponents": {
+    "baseNav": "./components/navbar/navbar"
+  }
 }

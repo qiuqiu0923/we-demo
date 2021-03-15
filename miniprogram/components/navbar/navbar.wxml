@@ -1,0 +1,7 @@
+<!--components/navbar/navbar.wxml-->
+<view id="nav_bar" class="custom_nav_bar">
+    <view wx:for="{{barList}}" wx:key="index">
+      <text>{{item.name}}</text>
+      <img src="{{item.src}}" />
+    </view>
+</view>

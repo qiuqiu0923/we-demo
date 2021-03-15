@@ -1,0 +1,12 @@
+/* components/navbar/navbar.wxss */
+.custom_nav_bar{
+  height:100rpx;
+  width: 100%;
+  border-top: 1px solid #ccc;
+  background-color: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40rpx;
+  box-sizing: border-box;
+}
